@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Rock+Salt&display=swap');
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(./background6.jpg);
@@ -34,7 +36,7 @@ body {
     margin: 1%;
     margin-top: 5%;
     height: 10%;
-    width: 15%;
+    width: 25%;
     color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
@@ -44,6 +46,7 @@ body {
     text-align: center;
   }
  
+
   .has-border1 {
     background: url(./tealgreen.png);
     background-size: 100% 100%;
@@ -51,29 +54,37 @@ body {
     background-repeat: no-repeat;
     text-align: left;
     text-indent: 20%;
+    opacity: 1;
   }
+  .has-border1:hover {opacity: 0.6}
    
   .has-border2 {
     background: url(./pinkorangebutton.png);
     background-size: 100% 100%;
     background-position: 100%;
     background-repeat: no-repeat;
+    opacity: 1;
   }
-   
+  .has-border2:hover {opacity: 0.6}
+
   .has-border3 {
     background: url(./greenbluebutton.png);
     background-size: 100% 100%;
     background-position: 100%;
     background-repeat: no-repeat;
+    opacity: 1;
   }
-   
+  .has-border3:hover {opacity: 0.6}
+
   .has-border4 {
     background: url(./orangebutton.png);
     background-size: 100% 100%;
     background-position: 100%;
     background-repeat: no-repeat;
+    opacity: 1;
   }
- 
+  .has-border4:hover {opacity: 0.6}
+
   nav {
     display: flex;
     justify-content: flex-end;
@@ -91,10 +102,12 @@ body {
  
   h1 {
     color:white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-size: 400%;
+    color: sandybrown;
     grid-column: 2/3;
     margin: 3% auto;
-    border-bottom: 2px solid #1940A9;;
+    border-bottom: 2px solid rgb(255, 255, 255);;
   }
  
   h2 {
@@ -102,6 +115,7 @@ body {
     margin: 3% auto;
     color: white;
     font-style: italic;
+    font-family: 'Rock Salt', cursive;
   }
  
   .small-text {
@@ -126,8 +140,12 @@ body {
     color: white;
     letter-spacing: 16px;
     font-style: italic;
+    opacity: 1;
   }
 
   #portfolio {
-  background: url(./background1.jpg);
+  background: url(./purplepinkbutton.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: none;
   }
