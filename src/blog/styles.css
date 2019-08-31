@@ -29,8 +29,8 @@
 
 .blog {
   height: 100px;
-  width: 30%; 
-  border: 6px solid #1D4273;
+  width: 50%; 
+  border: 5px solid #1D4273;
   text-align: left;
   margin: auto;
   background-color: white;
@@ -38,4 +38,17 @@
 
 .blog1 {
   /* align-content: flex-start; */
+}
+
+#hero-link {
+  text-decoration: none;
+}
+
+.date {
+  position: relative;
+  margin: 1px;
+
+}
+h2 {
+  margin: 1px;
 }
