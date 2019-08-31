@@ -1,0 +1,41 @@
+.main-container {
+  height: 100%;
+  width: 100%;
+  background-color: #1F1D59;
+}
+
+.hero-image {
+  background: url(./hero-background-edited.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.hero-text {
+  padding: 150px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+}
+
+.blog-container {
+  display: block;
+  margin: auto;
+  border: 5px solid #0D0924;
+  background-color: #3B668C;
+}
+
+.blog {
+  height: 100px;
+  width: 30%; 
+  border: 6px solid #1D4273;
+  text-align: left;
+  margin: auto;
+  background-color: white;
+}
+
+.blog1 {
+  /* align-content: flex-start; */
+}
