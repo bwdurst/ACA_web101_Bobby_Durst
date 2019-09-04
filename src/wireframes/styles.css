@@ -1,3 +1,49 @@
-*{
-  background-color: aquamarine;
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  height: 200px;
+  width: 90%;
+  background-color: gray;
+  margin: auto;
+  display: block;
+}
+
+.header * {
+  margin: 0px;
+}
+
+.main {
+  height: 900px;
+  width: 90%;
+  background-color: lightslategray;
+  margin: auto;
+  display: block;
+}
+
+.main p {
+  margin: 10px;
+}
+
+.vl {
+  border-left: 1px solid green;
+  height: 500px;
+  position: relative;
+  right: 35px;
+}
+
+.skills {
+  position: relative;
+  left: 20px;
+  list-style-type: none;
+}
+
+#job1 {
+  display: flex;
+}
+
+#job1 h3 h4 {
+  margin: 0px;
 }
