@@ -14,6 +14,7 @@ body {
 
 .main h1 {
   margin: 20px 40px;
+  font-weight: normal;
 }
 
 .main P {
@@ -42,7 +43,6 @@ body {
   font-size: 18px;
   text-align: center;
   margin: auto;
-  font-weight: normal;
   color: white;
 }
 
@@ -55,6 +55,10 @@ body {
 .useful {
   width: 50%;
   padding: 10px 40px;
+}
+
+#Terms {
+  border: none;
 }
 
 .social {
