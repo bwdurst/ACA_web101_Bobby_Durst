@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main {
@@ -8,7 +9,6 @@
   border: 1px solid red;
   background: paleturquoise;
   display: flex;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .details {
@@ -42,11 +42,24 @@
 
 .info {
   background: lightblue;
-  padding: 10px;
+  padding-left: 10px;
   border: 1px solid red;
-  width: 25%;
+  width: 70%;
   height: auto;
   position: inherit;
+}
+
+.info h2 {
+  font-size: 20;
+  border-bottom: 1px solid gray;
+}
+
+.info h3 {
+  font-size: 16;
+}
+
+.info p {
+  margin: 15 0;
 }
 
 h1 {
@@ -108,4 +121,5 @@ ul {
   font-size: 22;
   padding: 10 0 0;
   font-weight: bold;
+  margin-right: 4%;
 }
