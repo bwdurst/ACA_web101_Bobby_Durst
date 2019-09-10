@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+body {
+  background: darkslategray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#calculator {
+  grid-area: calc;
+}
+
+#clock {
+  grid-area: clock;
+  background: green;
+}
+
+#todo {
+  grid-area: todo;
+  background: orange;
+}
+
+#greeting {
+  grid-area: greeting;
+  background: purple;
+}
+
+#calendar {
+  grid-area: calendar;
+  background: gray;
+}
+
+.main-container {
+  display: grid;
+  width: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 100px 200px;
+  grid-template-areas:
+    "greeting greeting todo todo calc calc"
+    "clock clock todo todo calc calc"
+    " clock clock calendar calendar calendar calendar";
+}
+
+#greeting p {
+  font-size: 25;
+  color: white;
+}
+
+#calculator {
+  display: block;
+  background: rgb(230, 241, 255);
+  height: 100%;
+  border: 1px solid #c4c4c4;
+}
+
+button {
+  height: 50px;
+  background-color: #fff;
+  border-radius: 3px;
+  background-color: transparent;
+  font-size: 2rem;
+  color: #333;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.05), inset 0 1px 0 0 rgba(255,255,255,.45), inset 0 -1px 0 0 rgba(255,255,255,.15), 0 1px 0 0 rgba(255,255,255,.15);
+  background-image: linear-gradient(to bottom,transparent,transparent 50%,rgba(0,0,0,.04));
+  border: 1px solid #c4c4c4;
+}
+
+.calculator-screen {
+  display: block;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 0;
+  height: 40px;
+  width: 100%;
+  font-size: 30;
+  padding: 5px;
+  background: darkslategrey;
+  color: white;
+}
+
+.calculator-keys {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
+  padding: 10px;
+  padding-bottom: 0;
+  height: 90%;
+}
+
+.equal-sign {
+  height: 93%;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  grid-column-start: 4;
+  background: rgb(84, 84, 253);
+  color: white;
+}
+
+.decimal {
+  grid-row-start: 5;
+  grid-column-start: 3;
+}
+
+.all-clear {
+  grid-row-start: 5;
+  background: red;
+  color: white;
+}
+
+#todo-field {
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+#todo-button {
+  font-size: 20;
+  background: white;
+  margin: 10;
+  height: 30px;
+  width: 50px;
+}
+
+.clock {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background: white;
+  border-radius: 100%;
+  border: 10px solid #67d2c8;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.top {
+  position: relative;
+  width: 5px;
+  height: 10px;
+  background: #262626;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.right {
+  position: absolute;
+  width: 10px;
+  height: 5px;
+  background: #262626;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto 0;
+}
+
+.bottom {
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  background: #262626;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+.left {
+  position: absolute;
+  width: 10px;
+  height: 5px;
+  background: #262626;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+.center {
+  height: 6px;
+  width: 6px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #262626;
+  border-radius: 100%;
+}
+
+.hour {
+  width: 3px;
+  height: 35%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 28;
+  margin: auto;
+  transform: rotate(90deg);
+  transform-origin: bottom;
+  background: #262626;
+  }
+
+.minute {
+  width: 50%;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto 0;
+  background: #262626;
+  transform: rotate(90deg);
+  transform-origin: right;
+  }
+
+.second {
+  width: 2px;
+  height: 45%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: #262626;
+  transform: rotate(10deg);
+  transform-origin: bottom;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.month {
+  /* padding: 70px 25px; */
+  height: 25%;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  /* padding: 5px 0; */
+  background: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  height: 15px;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important;
+}
