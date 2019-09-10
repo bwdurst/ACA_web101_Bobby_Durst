@@ -116,6 +116,10 @@ button {
   margin-bottom: 5px;
 }
 
+.todo {
+  padding: 10px;
+}
+
 #todo-button {
   font-size: 20;
   background: white;
