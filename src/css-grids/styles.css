@@ -10,6 +10,7 @@ body {
 }
 
 .grid-container {
+  border: 1px solid black;
   display: grid;
   height: 1000;
   width: 1500;
@@ -91,4 +92,8 @@ body {
   background: url(./moredetails.PNG);
   grid-column: 5;
   grid-row: 5;
+}
+
+.facebook {
+  position: absolute;
 }
