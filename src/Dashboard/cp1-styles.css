@@ -187,7 +187,15 @@ nav {
     transition-delay: 0s;
 }
 
-.cardicon:hover{
+.row1-div2-1:hover img {
+  border-radius: 50%;
+}
+
+.row1-div2-2:hover img {
+  border-radius: 50%;
+}
+
+.row1-div2-3:hover img {
   border-radius: 50%;
 }
 
@@ -647,4 +655,5 @@ td {
 
 .cardheader {
   width: 100%;
+  min-width: 527;
 }
