@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Mansalva', cursive;
+}
+
+.main-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  color: white;
+  background: rgb(0, 0, 0);
+  background-image: url(./images/oceantunnel.jpg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 200px 0;
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+
+.navlinks {
+  width: 60%;
+  display: flex;
+  flex-flow: row;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.navlinks li {
+  width: 18%;
+  list-style-type: none;
+}
+
+.main-container {
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.form {
+  padding: 10;
+  width: 50%;
+}
+
+.form p {
+  margin: 5 0 10 0;
+}
+
+.form-inputs {
+  display: flex;
+  flex-flow: column;
+}
+
+.form-inputs input {
+  margin: 5 0;
+}
+
+.details {
+  height: 100px;
+}
+
+.submit-button {
+  margin-top: 5;
+  width: 30%;
+}
+
+.contact-info {
+  padding: 10;
+  width: 25%;
+}
+
+.contact-type {
+  margin-top: 130px;
+}
+
+.contact-type p {
+  display: flex;
+  align-content: center;
+}
+
+i {
+  text-align: center;
+  margin-right: 5px;
+}
+
+.fas {
+  margin-top: 2px;
+  font-size: 20;
+}
+
+.fa-phone-square-alt {
+padding-left: 3px;
+}
+
+.fa-envelope-square {
+  padding-left: 3px;
+}
+
+.social-media {
+  display: flex;
+  margin: 10 0;
+}
+
+.social-media i {
+  font-size: 30
+}
+
+i:hover {
+  color: crimson
+}
