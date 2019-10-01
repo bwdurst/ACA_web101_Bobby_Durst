@@ -1,0 +1,369 @@
+* {
+  margin-block-start: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.main-container {
+  display: flex;
+  flex-flow: column;
+}
+
+.wrapper1 {
+  width: 70%;
+  margin: 50 auto;
+  border-top: 1px solid rgb(204, 203, 203);
+  text-align: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header1 {
+  padding: 15 5;
+  font-size: 18;
+  background: white;
+  color: gray;
+}
+
+.main1 {
+  display: flex;
+  flex-flow: column;
+  padding: 15 35;
+  background: #01BFBE;
+}
+
+.main1 span {
+  color: white;
+  font-size: 22;
+  text-shadow: 1px 1px black;
+}
+
+#revenue {
+  color: rgb(177, 244, 245);
+  padding: 5 0;
+  font-size: 14;
+  font-weight: bold;
+}
+
+.footer1 {
+  padding: 10 35;
+  color: white;
+  font-weight: 14;
+  background: #01B5B5;
+}
+
+.footer1 span {
+  font-size: 14;
+}
+
+.wrapper2 {
+  width: 70%;
+  margin: 50 auto;
+}
+
+.wrapper2 button {
+  height: 41;
+  width: 172;
+  border-radius: 5px;
+  border-style: solid;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+#blue-button {
+  background: linear-gradient(to bottom, hsl(194, 100%, 50%) 0%,hsl(208, 100%, 50%) 100%);
+}
+
+#blue-button:hover {
+  background: linear-gradient(to bottom, hsl(194, 100%, 40%) 0%,hsl(208, 100%, 40%) 100%);
+}
+
+#orange-button {
+  background: linear-gradient(to bottom, hsl(48, 100%, 50%) 0%,hsl(28, 100%, 50%) 100%);
+}
+
+#orange-button:hover {
+  background: linear-gradient(to bottom, hsl(48, 100%, 40%) 0%,hsl(28, 100%, 40%) 100%);
+}
+
+.wrapper3 {
+  width: 70%;
+  height: 100;
+  margin: 50 auto;
+  padding: 30;
+  background: rgb(238, 238, 238);
+}
+
+.wrapper3 button {
+  height: 40;
+  width: 200;
+  color: white;
+  font-size: 15;
+  font-weight: bold;
+  border-style: solid;
+  border-radius: 5px;
+  border: none;
+}
+
+#left-button {
+  background: #6771E5;
+}
+
+#left-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+  filter: brightness(130%);
+}
+
+#right-button {
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  color: #6771E5;
+  background: white;
+}
+
+#right-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+  filter: brightness(130%);
+}
+
+.wrapper4 {
+  width: 70%;
+  height: 230;
+  padding: 2rem;
+  margin: 50 auto;
+  color: white;
+  background: #568695;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper4 p {
+  font-size: 18;
+  color: rgba(255,255,255,0.7);
+}
+
+#discover {
+  color: white;
+  font-size: 24;
+}
+
+.wrapper4 input {
+  height: 2.25rem;
+  padding: 0 .75rem;
+  border: 0;
+  font-size: .875rem;
+  width: 15rem;
+  border-radius: 5px 0 0 5px;
+}
+
+.wrapper4 button {
+  height: 2.25rem;
+  padding: 0 1rem;
+  border: none;
+  margin-top: 1rem;
+  margin-left: -.25rem;
+  font-weight: bold;
+  border-radius: 0 5px 5px 0;
+  background: hsl(43, 62%, 72%);
+  color: rgba(0,0,0,0.6);
+  cursor: pointer;
+}
+
+.wrapper4 button:hover {
+  filter: brightness(90%)
+}
+
+.wrapper5 {
+  width: 70%;
+  height: 280;
+  margin: 60 auto;
+  background: rgb(240, 240, 240);
+  color: rgb(116, 116, 116);
+  font-size: 1.1rem;
+}
+
+.wrapper5 p {
+  margin: 30;
+}
+
+.wrapper5 UL {
+  margin: 20 20;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.wrapper5 ul li {
+  width: 40%;
+  margin-right: 50;
+  padding: 3 0;
+  list-style-type: none;
+}
+
+.wrapper5 i {
+  padding: 10;
+  color: rgb(158, 103, 229);
+}
+
+.wrapper6 {
+  display: flex;
+  flex-flow: column;
+  width: 70%;
+  height: 250;
+  margin: 50 auto;
+  padding: 20;
+  text-align: center;
+  background: rgb(233, 233, 233);
+}
+
+.middle-text {
+  font-size: 2rem;
+}
+
+.title {
+  font-size: 1rem;
+  margin: 16 15 5 15;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(165, 165, 165);
+}
+
+.wrapper6 p {
+  width: 70%;
+  margin: 20 auto;
+  font-size: 18;
+  color: gray;
+}
+
+.wrapper7 {
+  display: flex;
+  flex-flow: row;
+  width: 70%;
+  margin: 50 auto;
+  justify-content: space-between;
+}
+
+.wrapper7-section {
+  width: 30%;
+  display: flex;
+  flex-flow: column;
+}
+
+.number {
+  background: #B4DFEB;
+  border: 2px solid #6AA3B4;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.title2 {
+  margin: 1rem 0;
+  color: #34434b;
+  font-size: 1.375rem;
+  font-weight: 500;
+}
+
+.wrapper7 p {
+  color: gray;
+}
+
+.wrapper8 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 70%;
+  padding: 30;
+  margin: 50 auto;
+  background: rgb(233, 233, 233);
+}
+
+.wrapper8 span {
+  font-size: 1.125rem;
+  margin: 0 auto;
+  color: rgb(99, 99, 99);
+}
+
+.wrapper8 div {
+  margin: 0 auto;
+}
+
+.wrapper8 button {
+  width: 100;
+  height: 50;
+  margin: 20 10;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cancel-button {
+  border: 2px solid #aaa;
+  background: transparent;
+  color: #444;
+}
+
+.cancel-button:hover {
+  background: #ddd;
+  color: #222;
+}
+
+.delete-button {
+  color: white;
+  font-size: 1rem;
+  border: 2px solid hsl(348, 95%, 60%);
+  background: hsl(348, 95%, 60%);
+}
+
+.delete-button:hover {
+  border: 2px solid hsl(348, 70%, 48%);
+  background: hsl(348, 70%, 48%);
+}
+
+.wrapper9 {
+  width: 70%;
+  background: #f1f1f1;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 50 auto;
+}
+
+.wrapper9 button {
+  border: none;
+  padding: .875rem 2rem;
+  border-radius: 5px;
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.cancel9 {
+  background: transparent;
+  color: #888;
+}
+
+.update9 {
+  background: hsl(200, 71%, 46%);
+  color: #fff;
+}
+
+#previous {
+  background: transparent;
+  border: 2px solid #aaa;
+  color: hsl(200, 71%, 40%);
+}
+
+#previous:hover {
+  background: #ddd;
+  color: #666;
+}
