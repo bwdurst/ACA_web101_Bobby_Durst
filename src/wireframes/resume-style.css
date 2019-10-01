@@ -1,14 +1,14 @@
 * {
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main {
   height: auto;
   width: 100%;
-  border: 1px solid red;
+  border: 1px solid gray;
   background: paleturquoise;
   display: flex;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .details {
@@ -25,7 +25,7 @@
   margin: auto;
   font-size: 150%;
   margin-bottom: 0px;
-  border: 2px solid red;
+  /* border: 2px solid; */
   background: gray;
   color: white;
   text-indent: 15px;
@@ -34,7 +34,7 @@
 
 .details {
   background: white;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: auto;
   height: auto;
   /* display: inline; */
@@ -42,11 +42,24 @@
 
 .info {
   background: lightblue;
-  padding: 10px;
-  border: 1px solid red;
-  width: 25%;
+  padding-left: 10px;
+  border: 1px solid black;
+  width: 70%;
   height: auto;
   position: inherit;
+}
+
+.info h2 {
+  font-size: 20;
+  border-bottom: 1px solid gray;
+}
+
+.info h3 {
+  font-size: 16;
+}
+
+.info p {
+  margin: 15 0;
 }
 
 h1 {
@@ -74,7 +87,7 @@ p {
 .dates {
   width: 200;
   height: auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 10 0 0;
   padding: 10 5;
   font-weight: bold;
@@ -83,7 +96,7 @@ p {
 .job-details {
   width: auto;
   height: auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 10 0 0;
   padding: 5;
 }
@@ -108,4 +121,5 @@ ul {
   font-size: 22;
   padding: 10 0 0;
   font-weight: bold;
+  margin-right: 4%;
 }
