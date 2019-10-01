@@ -139,6 +139,7 @@ body {
 
   .main p {
     font-size: 19;
+    max-width: 1020;
   }
 
   .top-stories {
@@ -152,5 +153,11 @@ body {
 
   .top-stories h2 {
     border-bottom: 1px solid black;
+  }
+
+  .image {
+    max-width: 1100;
+    margin: auto;
+    padding: 0;
   }
 }

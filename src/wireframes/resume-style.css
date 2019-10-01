@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  height: auto;
+  width: 100%;
+  border: 1px solid gray;
+  background: paleturquoise;
+  display: flex;
+}
+
+.details {
+  padding: 10 0 0 10;
+}
+
+.details > h3 {
+  text-indent: 20px;
+}
+
+.header {
+  height: 150px;
+  width: 100%;
+  margin: auto;
+  font-size: 150%;
+  margin-bottom: 0px;
+  /* border: 2px solid; */
+  background: gray;
+  color: white;
+  text-indent: 15px;
+  display: block;
+}
+
+.details {
+  background: white;
+  /* border: 1px solid red; */
+  width: auto;
+  height: auto;
+  /* display: inline; */
+}
+
+.info {
+  background: lightblue;
+  padding-left: 10px;
+  border: 1px solid black;
+  width: 70%;
+  height: auto;
+  position: inherit;
+}
+
+.info h2 {
+  font-size: 20;
+  border-bottom: 1px solid gray;
+}
+
+.info h3 {
+  font-size: 16;
+}
+
+.info p {
+  margin: 15 0;
+}
+
+h1 {
+  margin: 0px;
+  padding-top: 30px;
+}
+
+p {
+  margin: 0px;
+}
+
+.experience {
+  display: flex;
+  margin: 0;
+  height: auto;
+  width: 96%;
+}
+
+#Experience {
+  border-bottom: 1px solid gray;
+  font-size: 22;
+  padding: 10 0 0;
+}
+
+.dates {
+  width: 200;
+  height: auto;
+  /* border: 1px solid red; */
+  margin: 10 0 0;
+  padding: 10 5;
+  font-weight: bold;
+}
+
+.job-details {
+  width: auto;
+  height: auto;
+  /* border: 1px solid red; */
+  margin: 10 0 0;
+  padding: 5;
+}
+
+#job-title {
+  padding: 5 0;
+  font-size: 18;
+  font-weight: bold;
+}
+
+#job-location {
+  font-style: italic;
+  /* padding-left: 5; */
+}
+
+ul {
+  padding-left: 20;
+}
+
+.section {
+  border-bottom: 1px solid gray;
+  font-size: 22;
+  padding: 10 0 0;
+  font-weight: bold;
+  margin-right: 4%;
+}
