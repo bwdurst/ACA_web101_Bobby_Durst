@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Mansalva', cursive;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  color: white;
+  background: rgb(0, 0, 0);
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: black;
+  font-size: .75rem;
+}
+
+.navlinks {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.navlinks li {
+  width: 18%;
+  list-style-type: none;
+}
+
+.main-container {
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form {
+  padding: 10;
+  width: 100%;
+  max-width: 500px;
+}
+
+.form p {
+  margin: 5 0 10 0;
+}
+
+.form-inputs {
+  display: flex;
+  flex-flow: column;
+}
+
+.form-inputs input {
+  margin: 5 0;
+}
+
+.details {
+  height: 100px;
+}
+
+.submit-button {
+  margin-top: 5;
+  width: 30%;
+}
+
+.contact-info {
+  padding: 10;
+  width: 100%;
+}
+
+.contact-type p {
+  display: flex;
+  align-content: center;
+}
+
+i {
+  text-align: center;
+  margin-right: 5px;
+}
+
+.fas {
+  margin-top: 2px;
+  font-size: 20;
+}
+
+.fa-phone-square-alt {
+padding-left: 3px;
+}
+
+.fa-envelope-square {
+  padding-left: 3px;
+}
+
+.social-media {
+  display: flex;
+  margin: 10 0;
+}
+
+.social-media i {
+  font-size: 30
+}
+
+i:hover {
+  color: crimson
+}
+
+@media (min-width: 568px) {
+  .form {
+    max-width: 400px;
+    margin-left: 100px;
+  }
+
+  .contact-info {
+    padding-top: 160px;
+    max-width: 400px;
+  }
+
+  .main {
+    flex-flow: row;
+  }
+
+  .main-container {
+    justify-content: center;
+  }
+
+}
