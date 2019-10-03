@@ -1,19 +1,124 @@
 
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat|Rock+Salt&display=swap');
 
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  background: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-before: 0;
+  -webkit-padding-start: 0;
+  -webkit-padding-end: 0;
+  -webkit-padding-after: 0;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+*:active,
+*:hover {
+  outline: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  height: 100%;
+}
+
 body {
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+b, i, em, strong,
+h1, h2, h3, h4, h5, h6,
+th, td, pre, ins, del, address,
+input, select, button, textarea {
+  text-transform: inherit;
+  font-family: inherit;
+  font-size: normal;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: inherit;
+}
+
+textarea,
+input {
+  appearance: none;
+  background-clip: padding-box;
+}
+
+a, ins, del, button {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul, ol,
+menu {
+  list-style: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+pre,
+textarea {
+  overflow: auto;
+  max-width: 100%;
+}
+
+img {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+form {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  overflow: visible;
+}
+
+textarea {
+  resize: none;
+}
+
+::moz-focus-inner {
+  padding: 0;
+  border: none;
+}
+
+body {
+    border: 1px solid red;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(./background6.jpg);
+    background-image: url(./images/background6.jpg);
     background-repeat: no-repeat;
-    /* background-size: 1920px 1080px; */
-    /* width: 100%;
-    height: 100%; */
   }
  
   .logo {
     width: 150px;
-    /* height: 150px; */
-    /* margin: 3% 3%; */
     background: white;
     border-radius: 100px;
     background-position: top;
@@ -23,11 +128,9 @@ body {
   header {
     display: grid;
     grid-template-columns: 40% 60%;
-    width: 100%;
   }
  
   main {
-    /* height: auto; */
     width: 100%;
     display: grid;
     grid-template-columns: 30% 40% 30%;
@@ -38,7 +141,6 @@ body {
     width: 25%;
     color: rgb(255, 255, 255);
     font-family: 'Rock Salt', cursive;
-    /* font-size: 85%; */
     font-weight: bold;
     border-radius: 25px;
     padding: 30px;
@@ -47,7 +149,7 @@ body {
   }
 
   .has-border1 {
-    background: url(./tealgreen.png);
+    background: url(./images/tealgreen.png);
     background-size: 100% 100%;
     background-position: 100%;
     background-repeat: no-repeat;
@@ -59,7 +161,7 @@ body {
   .has-border1:hover {opacity: 0.6}
    
   .has-border2 {
-    background: url(./pinkorangebutton.png);
+    background: url(./images/pinkorangebutton.png);
     background-size: 100% 100%;
     background-position: 100%;
     background-repeat: no-repeat;
@@ -69,7 +171,7 @@ body {
   .has-border2:hover {opacity: 0.6}
 
   .has-border3 {
-    background: url(./greenbluebutton.png);
+    background: url(./images/greenbluebutton.png);
     background-size: 100% 100%;
     background-position: 100%;
     background-repeat: no-repeat;
@@ -79,7 +181,7 @@ body {
   .has-border3:hover {opacity: 0.6}
 
   .has-border4 {
-    background: url(./purplepinkbutton.png);
+    background: url(./images/purplepinkbutton.png);
     background-size: 100% 100%;
     background-position: 100%;
     background-repeat: no-repeat;
@@ -92,7 +194,6 @@ body {
     display: flex;
     width: 95%;
     margin-left: 5%;
-    /* padding-right: 2%; */
   }
  
   #profile-pic {
@@ -108,8 +209,6 @@ body {
     font-family: 'Dancing Script', cursive;
     font-size: 400%;
     grid-column: 2/3;
-    /* margin: 3% auto; */
-    /* border-bottom: 2px solid rgb(255, 255, 255); */
     text-shadow: 		
       -1px -1px 0 #000,
 		  1px -1px 0 #000,
@@ -127,7 +226,6 @@ body {
       1px -1px 0 #000,
       -1px 1px 0 #000,
       5px 5px 0 #000;
-    /* margin: 3% auto; */
     color: white;
     font-style: italic;
     font-family: 'Rock Salt', cursive;
@@ -139,20 +237,16 @@ body {
     text-align: center;
     color: white;
     font-size: 10px;
-    /* margin: 3% auto; */
   }
  
   button {
     grid-column: 2/3;
     margin: 3% auto;
     width: 70%;
-    /* height: 15%; */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     border-radius: 25px;
     background: transparent;
-    /* padding: 20px;
-    padding-bottom: 5%; */
     text-align: center;
     color: white;
     letter-spacing: 16px;

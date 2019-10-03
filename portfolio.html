@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./portfolio-style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="logo-wrapper">
+    <img class="logo" src="./images/acastandardcirclefullname.png" alt="">
+  </div>
+    <nav>
+      <div class="nav-button-wrapper">
+        <a href="./src/wireframes/resume.html"><button class="nav-button resume">Resume</button></a>
+        <button class="nav-button about-me">About Me</button>
+        <button class="nav-button my-portfolio">My Portfolio</button>
+        <a href="./src/blog/blog.html"><button class="nav-button my-blog">My Blog</button></a>
+        <button class="nav-button contact-me">Contact Me</button>
+      </div>
+  </nav>
+  <div class="main">
+    <div class="personal">
+      <img class="profile-pic" src="./images/myProfilePic.jpg" alt="">
+      <div class="personal-info">
+        <h1>Bobby Durst</h1>
+        <p>Software Developer</p>
+        <p class="quote">Not all who wander are lost. - Tolkien</p>
+      </div>
+    </div>
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/hb7Q33ysCwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <div class="video-wrapper">
+      <p>Coding Is Not Difficult</p>
+    <video class="bideo" controls width="400">
+        <source src="./images/video.mp4"
+                type="video/webm">    
+          <p>Your browser doesn't support HTML5 video. Here is
+         <a href="https://www.myVideo.com">link to the video</a> instead.</p>
+    </video>
+    </div>
+    <form>
+      <div class="form-input-wrapper">
+        <input type="text" name="name" id="name" required>
+        <input type="date" name="DOB" id="date-of-birth" required>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+      </div>
+      </form>
+  
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat|Rock+Salt&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rock Salt', cursive;
+}
+
+body {
+  background-image: url(./images/nebula2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;;
+  width: 100%;
+
+}
+
+nav {
+  width: 100%;
+  display: inline-block;
+}
+
+.logo-wrapper {
+  text-align: center;
+}
+
+.logo {
+  background: white;
+  border-radius: 100%;
+  width: 150;
+}
+
+.nav-button-wrapper {
+  text-align: center;
+}
+
+.nav-button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20;
+  font-family: 'Rock Salt', cursive;
+  text-shadow: 		
+      -1px -1px 0 #000,
+		  1px -1px 0 #000,
+		  -1px 1px 0 #000,
+      5px 5px 0 #000;
+      cursor: pointer;
+}
+
+.nav-button:hover {
+  filter: brightness(110%);
+}
+
+.resume {
+  width: 470;
+  height: 60;
+  background-image: url(./images/pinkorangebutton.png);
+  background-size: 100% 100%;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+.about-me {
+  width: 470;
+  height: 60;
+  background-image: url(./images/orangebutton.png);
+  background-size: 100% 100%;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+.my-portfolio {
+  width: 470;
+  height: 60;
+  background-image: url(./images/greenbluebutton.png);
+  background-size: 100% 100%;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+.my-blog {
+  width: 470;
+  height: 60;
+  background-image: url(./images/bluepurplebutton.png);
+  background-size: 100% 100%;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+.contact-me {
+  width: 470;
+  height: 60;
+  background-image: url(./images/tealgreen.png);
+  background-size: 100% 100%;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+.personal {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.profile-pic {
+  height: 200;
+  width: 200;
+  border-radius: 100%;
+}
+
+.personal-info {
+  font-family: 'Rock Salt', cursive;
+  color: white;
+  text-shadow: 		
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  2px 2px 0 #000;
+  text-align: center;
+}
+
+.personal-info p {
+  font-size: 1rem;
+}
+
+.video-wrapper {
+  width: 100%;
+  margin-top: 50;
+  text-align: center;
+}
+
+.video-wrapper p {
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.form-input-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30;
+}
