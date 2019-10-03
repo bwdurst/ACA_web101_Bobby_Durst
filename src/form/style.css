@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  height: 100%;
+  width: 100%;
+}
+
+.main-container .form-container {
+  border: 1px solid black;
+  height: 450px;
+  width: 650px;
+  display: flex;
+  flex-flow: row;
+  border-radius: 10px;
+}
+
+.main-container .form-container .form-container-img {
+  border: 1px solid blue;
+  height: 100%;
+  flex: 1;
+  background: url(./steak.jpg);
+  background-size: cover;
+  background-position: -50px;
+}
+
+.main-container .form-container .form-container-form {
+  border: 1px solid green;
+  height: 100%;
+  flex: 2;
+}
+
+.form-inner {
+  padding: 20;
+  display: flex;
+  flex-flow: column;
+}
+
+.input-group {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.inner1 {
+  display: flex;
+  flex-flow: row;
+  border: 2px solid red;
+}
