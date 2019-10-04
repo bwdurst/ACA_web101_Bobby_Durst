@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+}
+
+.main div {
+  height: 50px;
+  width: 50px;
+  margin: 10px auto;
+
+}
+
+.main div:nth-of-type(1) {
+  background: red;
+}
+
+.main div:nth-of-type(2) {
+  background: green;
+}
+
+.main div:nth-of-type(3) {
+  background: purple;
+}
+
+.main div:nth-of-type(4) {
+  background: orange;
+}
+
+.main div:nth-of-type(5) {
+  background: blue;
+}
+
+.main div:nth-of-type(6) {
+  background: yellow;
+}
+
+.main div:nth-of-type(7) {
+  background: violet;
+}
+
+.main div:nth-of-type(8) {
+  background: indigo;
+}
+
+.main div:nth-of-type(9) {
+  background: grey;
+}
+
+.main div:nth-of-type(10) {
+  background: black;
+}
+
+.main div:nth-of-type(11) {
+  background: brown;
+}
+
+.main div:nth-of-type(12) {
+  background: gold;
+}
+
+.main div:nth-child(even) {
+  transition: all 3s ease-in-out; 
+}
+
+
+.main:hover div:nth-of-type(even) { 
+  transform: scale(2) translate(200px) rotate(180deg);
+
+}
+
+.main div:nth-child(odd) {
+  transition: all 1s ease-in-out; 
+}
+
+
+.main:hover div:nth-of-type(odd) { 
+  transform: scale(.5) translate(-600px) rotate(-180deg); 
+}
