@@ -46,6 +46,9 @@ body {
 }
 
 .navbar li {
+    display: inline-block;
+    white-space: nowrap;
+    width: auto;
     list-style: none;
 }
 
@@ -256,7 +259,7 @@ body {
     margin-left: 40px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 960px) {
     body {
         width: 100%;
         background: none;
@@ -283,6 +286,7 @@ body {
         background-color: #28992ebd;
         top: -80px;
         text-align: center;
+        margin-top: -50;
     }
 
     .header {
@@ -292,7 +296,6 @@ body {
 
     .company-name {
         margin-left: 0;
-        background-color: #28992d;
     }
 
     .name-wrapper {
@@ -300,14 +303,16 @@ body {
     }
 
     .navbar {
-        display: flex;
-        flex-flow: column;
-        align-items: center;
+        display: inline-block;
         margin: 5px;
     }
 
     .navbar li {
+        background-color: #f8f5eead;
+        height: 18%;
+        width: 150px;
         padding: 5px;
+        margin: 1px;
     }
 
     .navbar a {
@@ -339,6 +344,7 @@ body {
     }
 
     .our-customers {
+        text-align: center;
         width: 60%;
     }
 
