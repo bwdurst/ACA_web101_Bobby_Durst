@@ -1,0 +1,147 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat|Rock+Salt&display=swap');
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.navbar {
+	background: rgb(247,45,253);
+	background: linear-gradient(132deg, rgba(247,45,253,1) 0%, rgba(210,210,47,1) 22%, rgba(60,202,69,1) 29%, rgba(66,166,199,1) 65%, rgba(34,86,195,1) 100%);	padding: 1% 0;
+	font-size: 1.2em;
+}
+
+.navbar .name {
+	font-size: .8em;
+	color: white;
+	font-family: 'Rock Salt', cursive;
+	padding-top: 10px;
+}
+
+.navbar-default .navbar-nav li a {
+	font-family: 'Rock Salt', cursive;
+	color: #D5D5D5;
+	font-size: .8em;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+	color: #FFF;
+}
+
+#home {
+	background: url(./img/color-crowd.jpg) no-repeat center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	padding-top: 50px;
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landing-text h1 {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	font-size: 400%;
+	font-weight: 600;
+}
+
+.landing-text h3 {
+	color: white;
+}
+
+.padding	{
+	padding: 80px 0;
+}
+
+.padding img {
+	width: 100%;
+}
+
+#fixed {
+	background: url(./img/wireframes.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+footer {
+	width: 100%;
+	background-color: rgb(15, 74, 126);
+	padding: 1% 5% 1% 5%;
+	color: white;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: white;
+}
+
+.fa:hover {
+	color: #D5D5D5;
+	text-decoration: none;
+}
+
+.icon {
+	max-width: 200px;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  outline: 0;
+  -webkit-appearance: none;
+}
+
+/* Custom */
+.landing-text .btn {
+  display: inline-block;
+  position: relative;
+	padding: 10px 18px;
+	margin-top: 10px;
+  top: 0;
+  font-size: 20px;
+  font-family: "Open Sans", Helvetica;
+  border-radius: 4px;
+  border-bottom: 1px solid rgba( 28, 227, 125, 0.5 );
+  background: rgb(22, 136, 230);
+  color: #fff;
+  box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.1 );
+          transform: translateZ(0);
+          transition: all 0.2s ease;
+}
+
+.landing-text .btn:hover {
+  top: -10px;
+  box-shadow: 0px 10px 10px rgba( 15, 165, 60, 0.2 );
+          transform: rotateX(20deg);
+}
+
+.btn:active {
+  top: 0px;
+  box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.0 );
+  background: rgba( 20, 224, 133, 1 );
+}
+
+@media (max-width: 768px) {
+	.landing-text h1 {
+		font-size: 300%;
+	}
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon {
+		padding-top: 5%;
+		max-width: 100px;
+	}
+}
