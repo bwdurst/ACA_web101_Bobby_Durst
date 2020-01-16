@@ -1,0 +1,408 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/gravelbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex-flow: row;
+    height: 165px;
+    width: 100%;
+    background-color: #e8dfc6;
+    justify-content: center;
+}
+
+.company-name {
+    display: flex;
+    width: 250px;
+    height: 100%;
+    color: white;
+    background: #5ec163;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Squada One', cursive;
+}
+
+.company-name h1 {
+    padding: 5px;
+}
+
+.navbar {
+    width: 675px;
+    display: flex;
+    flex-flow: row;
+    margin: 30px 0 0  35px;
+}
+
+.navbar li {
+    display: inline-block;
+    white-space: nowrap;
+    width: auto;
+    list-style: none;
+}
+
+.navbar a {
+    height: 50px;
+    padding: 15px 25px;
+    margin: 0 2px;
+    font-family: 'Open Sans';
+    font-size: 14;
+    background-color: #f8f5eead;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar .active-page {
+    color: #3aaf40;
+    background-color: #f8f5ee;
+}
+
+.navbar a:hover {
+    color: #3aaf40;
+    background-color: #f8f5ee;
+}
+
+.main-container {
+    position: relative;
+    display: flex;
+    height: 1250px;
+    flex-flow: column;
+    background-image: url(./images/olddudegettinafterit.jpg);
+    background-repeat: no-repeat;
+    background-color: #e8dfc6;
+}
+
+.main-container h1 {
+    position: absolute;
+    top: 455;
+    color: white;
+    font-size: 5rem;
+    font-family: 'Squada One', cursive;
+    align-self: center;
+    padding: 15px 20px;
+    background: #129c24a1;
+    font-weight: 120;
+}
+
+.core-value-wrapper {
+    position: absolute;
+    display: flex;
+    flex-flow: row;
+    color: #4B3C25;
+    align-self: center;
+    top: 620;
+    left: 115;
+}
+
+.core-value-wrapper div {
+    margin: 5px;
+}
+
+.value {
+    width: 220px;
+    height: 500px;
+}
+
+.core {
+    background: white;
+    box-shadow: 0 1px 2px #aaa;
+}
+
+.core-value-wrapper h2 {
+    padding: 30px 15px;
+    font-size: 2rem;
+    font-weight: 120;
+    font-family: 'Squada One', cursive;
+}
+
+.core-value-wrapper img {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.core-value-wrapper p {
+    margin: 5px 10px;
+    font-family: 'Open Sans';
+    font-size: 14;
+    color: rgba(75, 60, 37, 0.726);
+}
+
+.integrity {
+    width: 450px;
+    height: 500px;
+}
+
+.integrity h2 {
+    color: #3aaf40;
+}
+
+.our-customers {
+    display: flex;
+    flex-flow: column;
+    width: 220px;
+    height: 500px;
+    background: white;
+    justify-content: center;
+}
+
+.core-value-wrapper .our-customers h2 {
+    padding: 13px 15px;
+    margin-top: 0px;
+}
+
+.core-value-wrapper .our-customers .yelp {
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+.our-customers .instagram  {
+    height: 104px;
+    width: 107px;
+    padding: 0;
+    margin: 0;
+    align-self: center;
+}
+
+.core-value-wrapper .our-customers .reviews {
+    align-self: center;
+    margin: 5px 0 0 0;
+    padding: 9px 0 0 0;
+    width: 174px;
+    height: 42px;
+    text-align: center;
+    font-size: 16;
+    font-weight: 130;
+    background: green;
+    color: white;
+    font-family: 'Open Sans';
+}
+
+.hours {
+    width: 130px;
+    padding-top: 200px;
+    font-family: 'Open Sans';
+    color: #a35124;
+}
+
+.hours p {
+    margin: 10px 0;
+    font-style: italic;
+    color: #a35124;
+}
+
+.hours p:last-of-type {
+    margin-top: 100px;
+}
+
+.our-customers p {
+    margin-top: 5px;
+    padding-top: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+.contact {
+    position: absolute;
+    bottom: 30px;
+    align-self: center;
+    text-align: center;
+    line-height: 30px;
+    color: rgba(75, 60, 37, 0.726);
+    font-family: 'Open Sans';
+    font-size: 13;
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    background-color: #c0b593;
+}
+
+.footer-wrapper {
+    width: 922px;
+    display: flex;
+    flex-flow: row;
+    color: white;
+    align-self: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-family: 'Open Sans';
+}
+
+.footer-wrapper p {
+    padding-top: 10px;
+    font-size: 12;
+}
+
+.social-media img {
+    width: 32px;
+    height: 32px;
+}
+
+.footer .builder {
+    height: 35px;
+    width: 100px;
+    size: 50%;
+    align-self: center;
+    margin-left: 40px;
+}
+
+@media (max-width: 960px) {
+    body {
+        width: 100%;
+        background: none;
+        margin: 0 0;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .main-container {
+        height: initial;
+        position: relative;
+        background-size: 100%;
+    }
+
+    .main-image {
+        width: 100%;
+    }
+
+    .main-container h1 {
+        position: relative;
+        font-size: 6vw;
+        background-color: #28992ebd;
+        top: -80px;
+        text-align: center;
+        margin-top: -50;
+    }
+
+    .header {
+        justify-content: left;
+        width: 100%;
+    }
+
+    .company-name {
+        margin-left: 0;
+    }
+
+    .name-wrapper {
+        width: 220px;
+    }
+
+    .navbar {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .navbar li {
+        background-color: #f8f5eead;
+        height: 18%;
+        width: 150px;
+        padding: 5px;
+        margin: 1px;
+    }
+
+    .navbar a {
+        background: none;
+    }
+
+    .navbar .active-page {
+        background: none;
+    }
+
+    .core-value-wrapper {
+        display: flex;
+        width: 90%;
+        position: initial;
+        flex-flow: column;
+        margin-top: -75;
+        align-items: center;
+    }
+
+    .core-value-wrapper div {
+        height: initial;
+        justify-content: center;
+    }
+
+    .core {
+        display: flex;
+        flex-flow: column;
+        width: 90%;
+    }
+
+    .our-customers {
+        text-align: center;
+        width: 60%;
+    }
+
+    .value {
+        width: 80%;
+    }
+
+    .core h2 {
+        padding: 0 10px;
+    }
+
+    .core img {
+        margin: 5px 0;
+    }
+
+    .value img {
+        margin: 5px 0;
+        width: 250px;
+    }
+
+    .integrity img {
+        align-self: center;
+        width: 90%;
+    }
+
+    .value img {
+        align-self: center;
+    }
+
+    .our-customers img {
+        align-self: center;
+        width: 200px;
+    }
+
+    .core-value-wrapper .our-customers h2 {
+        padding: 0 5px;
+    }
+
+    .hours {
+        display: flex;
+        flex-flow: row;
+        padding: 0;
+        width: 100%;
+    }
+
+    .hours p {
+        margin: 5px;
+    }
+
+    .hours p:last-of-type {
+        margin: 5px;
+    }
+
+    .contact {
+        position: initial;
+    }
+
+    .footer .builder {
+        margin: 0;
+    }
+}
